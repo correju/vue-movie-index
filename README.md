@@ -1,6 +1,9 @@
-# myvue
+# Movie Index
 
-> A Vue.js project
+> This small project with learning propuses using **VueJS**, **Vue-Router**, and **Vuex**.
+> Is using The moviedb API [link](https://www.themoviedb.org/)
+> It is a work in progress and it is not optimized yes
+> To build the base core, vue-cli was used
 
 ## Build Setup
 
@@ -27,4 +30,4 @@ npm run e2e
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
