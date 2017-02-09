@@ -3,8 +3,8 @@
     <table class="table">
       <thead>
         <th>Title</th>
-        <th>character</th>
         <th>Date</th>
+        <th>character</th>
       </thead>
       <tbody>
         <tr v-for="el in checkData">
@@ -29,7 +29,6 @@ export default {
   props: [ 'data' ],
   computed: {
     checkData () {
-      console.log(this.data)
       return this.data
     }
   }

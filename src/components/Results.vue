@@ -22,7 +22,7 @@ export default {
   methods: {
     goTo (type, id) {
       this.$parent.$emit('clear-input')
-      if (type === 'people') {
+      if (type === 'person') {
         this.$router.push({name: 'People', params: {id}})
       } else {
         this.$router.push({name: 'People', params: {id}})

@@ -45,6 +45,13 @@ export default {
     people(this.$route.params.id)
     getMovieCredits(this.$route.params.id)
     getTvCredits(this.$route.params.id)
+  },
+  watch: {
+    '$route' (newValue, oldValue) {
+      people(newValue.params.id)
+      getMovieCredits(newValue.params.id)
+      getTvCredits(newValue.params.id)
+    }
   }
 }
 </script>
