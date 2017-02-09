@@ -1,7 +1,7 @@
 # Movie Index
 
 > This is a small project with learning propuses using **VueJS**, **Vue-Router**, and **Vuex**.
-> Is using The moviedb API [link](https://www.themoviedb.org/)
+> Is using The [moviedb API](https://www.themoviedb.org/)
 > It is a work in progress and it is not optimized yet
 > To build the base core, vue-cli was used
 
